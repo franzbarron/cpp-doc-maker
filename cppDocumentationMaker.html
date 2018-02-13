@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>cppDocumentationMaker.cpp documentation</title>
+	</head>
+	<body>
+		<h1>Program: cppDocumentationMaker</h1>
+		<p><b>Description:</b> Program that creates an HTML file with the documentation of a CPP file
+		<p><b>Author:</b> Juan Francisco Barrón Camacho
+		<p><b>Date:</b> 23 / January / 2018
+		<hr><h3>Function: createHTML</h3>
+		<p><b>Description:</b> Creates the HTML file with the CPP file's name and the first basic lines (head, title, body)
+		<p><b>Parameters:</b> filename nname of the cpp file from which the html file will be created
+		<hr><h3>Function: editHTML</h3>
+		<p><b>Description:</b> Add the documentation using the tag to create the corresponding format (h1, p, etc)
+		<p><b>Parameters:</b> tag determines the documentation tag. documentation is the documentation per se. filename is the name of the HTML file to be opened and edited
+		<hr><h3>Function: tagSearch</h3>
+		<p><b>Description:</b> Looks for a documentation tag in a given line of the CPP file
+		<p><b>Parameters:</b> line is the content of a line in the CPP file. filename is the file's name to be sent to editHTML
+		<hr><h3>Function: main</h3>
+		<p><b>Description:</b> Asks for the name of a CPP file (add the extension if omitted by the user) and creates an HTML file with the documentation
+	</body>
+</html>
